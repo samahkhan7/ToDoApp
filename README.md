@@ -32,7 +32,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app: 
 When writing the FileUtils code, I hadn't chosen the right import option and it took a while to figure out why FileUtils.writeLines(getDataFile(), listOfTasks) showed an error.
 I solved the problem by rechecking the import code and changing the incorrect line to import org.apache.commons.io.FileUtils
 
